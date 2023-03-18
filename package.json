@@ -5,7 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "dev": "node esbuild.config.mjs",
-    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production && cp dist/main.js dist/manifest.json dist/styles.css '/Users/zhaihao/Documents/ORISON/.obsidian/plugins/omnisearch'",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "version": "node version-bump.mjs",
     "test": "jest"

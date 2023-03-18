@@ -6,6 +6,10 @@
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/scambier/obsidian-omnisearch)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/scambier/obsidian-omnisearch?include_prereleases&label=BRAT%20beta)
 
+```bash
+git remote add upstream git@github.com:scambier/obsidian-omnisearch.git
+```
+
 > 🏆 Winner of the _[2023 Gems of the Year](https://obsidian.md/blog/2023-goty-winners/)_ in the "Existing plugin" category 🏆
 
 

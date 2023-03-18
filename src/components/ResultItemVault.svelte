@@ -70,7 +70,7 @@
   <div>
     <div class="omnisearch-result__title-container">
       <span class="omnisearch-result__title">
-        <span bind:this="{elFilePathIcon}"></span>
+        <!-- <span bind:this="{elFilePathIcon}"></span> -->
         <span>{@html highlightText(title, matchesTitle)}</span>
         <span class="omnisearch-result__extension">
           .{getExtension(note.path)}
@@ -85,15 +85,16 @@
           </span>
         {/if}
       </span>
-    </div>
+
 
     <!-- Folder path -->
     {#if notePath}
       <div class="omnisearch-result__folder-path">
-        <span bind:this="{elFolderPathIcon}"></span>
+        <!-- <span bind:this="{elFolderPathIcon}"></span> -->
         <span>{@html highlightText(notePath, matchesNotePath)}</span>
       </div>
     {/if}
+    </div>
 
     <div style="display: flex; flex-direction: row;">
       {#if $showExcerpt}
